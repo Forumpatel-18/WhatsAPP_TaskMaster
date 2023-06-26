@@ -1,0 +1,290 @@
+@font-face {
+    font-family: 'Gilroy';
+    src: url('../font_web/Gilroy-Black.woff2') format('woff2'),
+        url('../font_web/Gilroy-Black.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Gilroy';
+    src: url('../font_web/Gilroy-BlackItalic.woff2') format('woff2'),
+        url('../font_web/Gilroy-BlackItalic.woff') format('woff');
+    font-weight: 900;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Gilroy';
+    src: url('../font_web/Gilroy-Bold.woff2') format('woff2'),
+        url('../font_web/Gilroy-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Gilroy';
+    src: url('../font_web/Gilroy-BoldItalic.woff2') format('woff2'),
+        url('../font_web/Gilroy-BoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Gilroy';
+    src: url('../font_web/Gilroy-ExtraBoldItalic.woff2') format('woff2'),
+        url('../font_web/Gilroy-ExtraBoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Gilroy';
+    src: url('../font_web/Gilroy-ExtraBold.woff2') format('woff2'),
+        url('../font_web/Gilroy-ExtraBold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Gilroy';
+    src: url('../font_web/Gilroy-Heavy.woff2') format('woff2'),
+        url('../font_web/Gilroy-Heavy.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Gilroy';
+    src: url('../font_web/Gilroy-Light.woff2') format('woff2'),
+        url('../font_web/Gilroy-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Gilroy';
+    src: url('../font_web/Gilroy-HeavyItalic.woff2') format('woff2'),
+        url('../font_web/Gilroy-HeavyItalic.woff') format('woff');
+    font-weight: 900;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Gilroy';
+    src: url('../font_web/Gilroy-LightItalic.woff2') format('woff2'),
+        url('../font_web/Gilroy-LightItalic.woff') format('woff');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Gilroy';
+    src: url('../font_web/Gilroy-Medium.woff2') format('woff2'),
+        url('../font_web/Gilroy-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Gilroy';
+    src: url('../font_web/Gilroy-MediumItalic.woff2') format('woff2'),
+        url('../font_web/Gilroy-MediumItalic.woff') format('woff');
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Gilroy';
+    src: url('../font_web/Gilroy-Regular.woff2') format('woff2'),
+        url('../font_web/Gilroy-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Gilroy';
+    src: url('../font_web/Gilroy-RegularItalic.woff2') format('woff2'),
+        url('../font_web/Gilroy-RegularItalic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Gilroy';
+    src: url('../font_web/Gilroy-SemiBold.woff2') format('woff2'),
+        url('../font_web/Gilroy-SemiBold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Gilroy';
+    src: url('../font_web/Gilroy-SemiBoldItalic.woff2') format('woff2'),
+        url('../font_web/Gilroy-SemiBoldItalic.woff') format('woff');
+    font-weight: 600;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Gilroy';
+    src: url('../font_web/Gilroy-Thin.woff2') format('woff2'),
+        url('../font_web/Gilroy-Thin.woff') format('woff');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Gilroy';
+    src: url('../font_web/Gilroy-ThinItalic.woff2') format('woff2'),
+        url('../font_web/Gilroy-ThinItalic.woff') format('woff');
+    font-weight: 100;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Gilroy';
+    src: url('../font_web/Gilroy-UltraLight.woff2') format('woff2'),
+        url('../font_web/Gilroy-UltraLight.woff') format('woff');
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Gilroy';
+    src: url('../font_web/Gilroy-UltraLightItalic.woff2') format('woff2'),
+        url('../font_web/Gilroy-UltraLightItalic.woff') format('woff');
+    font-weight: 200;
+    font-style: italic;
+}
+
+/*##############################################################################################################*/
+
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('../font_web/Roboto-Black.woff2') format('woff2'),
+        url('../font_web/Roboto-Black.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('../font_web/Roboto-BlackItalic.woff2') format('woff2'),
+        url('../font_web/Roboto-BlackItalic.woff') format('woff');
+    font-weight: 900;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('../font_web/Roboto-Bold.woff2') format('woff2'),
+        url('../font_web/Roboto-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('../font_web/Roboto-Italic.woff2') format('woff2'),
+        url('../font_web/Roboto-Italic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('../font_web/Roboto-Medium.woff2') format('woff2'),
+        url('../font_web/Roboto-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('../font_web/Roboto-MediumItalic.woff2') format('woff2'),
+        url('../font_web/Roboto-MediumItalic.woff') format('woff');
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('../font_web/Roboto-BoldItalic.woff2') format('woff2'),
+        url('../font_web/Roboto-BoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('../font_web/Roboto-Regular.woff2') format('woff2'),
+        url('../font_web/Roboto-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap; 
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('../font_web/Roboto-LightItalic.woff2') format('woff2'),
+        url('../font_web/Roboto-LightItalic.woff') format('woff');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('../font_web/Roboto-Light.woff2') format('woff2'),
+        url('../font_web/Roboto-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('../font_web/Roboto-ThinItalic.woff2') format('woff2'),
+        url('../font_web/Roboto-ThinItalic.woff') format('woff');
+    font-weight: 100;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('../font_web/Roboto-Thin.woff2') format('woff2'),
+        url('../font_web/Roboto-Thin.woff') format('woff');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
