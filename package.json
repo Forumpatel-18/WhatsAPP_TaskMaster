@@ -2,6 +2,7 @@
   "name": "demo-login",
   "version": "0.1.0",
   "private": true,
+  "homepage": "http://utilities.plindia.com/taskmaster",
   "dependencies": {
     "@syncfusion/ej2-react-grids": "^21.2.10",
     "@testing-library/jest-dom": "^5.16.5",
