@@ -29,7 +29,7 @@ body {
 }
 .rig {
   display: inline-block;
-  float: right;
+  /* float: right;s */
   margin-top: 16px;
   font-size: 22px;
 }
@@ -89,13 +89,13 @@ img.ico_arr {
 }
 
 .logo img {
-  width: 200px;
+  width: 110px;
 }
 
 input.input_form {
   width: 100%;
   height: 38px;
-  padding: 0 40px 0px;
+  padding: 0 15px 0px;
   margin: 6px 0px;
   color: #666;
   border: 1px solid #ccc;
@@ -301,7 +301,7 @@ input.inter_text::placeholder {
   font-size: 16px;
   color: #0779ad;
   margin-top: 5px;
-  float: right;
+  /* float: right; */
 }
 
 input.chk_bx {
@@ -386,6 +386,9 @@ img.img_w {
 }
 
 @media (min-width: 10px) and (max-width: 991px) {
+  .row.flot_r .float-right {
+    float: none;
+  }
   .rig {
     display: block;
     float: none;

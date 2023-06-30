@@ -82,12 +82,14 @@ const Login = () => {
                 <label className="required">Username</label>
                 <input
                   class="input_form "
+                  placeholder="Username"
                   type="text"
                   onChange={(e) => setUserName(e.target.value)}
                 />
                 <label className="required">Password</label>
                 <input
                   class="input_form pass"
+                  placeholder="Password"
                   type="password"
                   onChange={(e) => setPassword(e.target.value)}
                   onKeyDown={handleKeyDown}

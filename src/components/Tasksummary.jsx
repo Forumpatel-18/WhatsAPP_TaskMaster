@@ -951,7 +951,7 @@ const Tasksummary = () => {
               </div>
             </div>
 
-            <div class="col-lg-4">
+            <div class="col-lg-2">
               <div class="label_input">
                 <label>HOD</label>
                 <Select
@@ -962,7 +962,7 @@ const Tasksummary = () => {
                 />
               </div>
             </div>
-            <div class="col-lg-3">
+            <div class="col-lg-5">
               <div class="rdo_flx">
                 <p>Status</p>
                 <label>
@@ -1013,7 +1013,12 @@ const Tasksummary = () => {
                 <label>
                   <br />
                 </label>
-                <button type="button" class="go_btn" onClick={handleSubmit}>
+                <button
+                  type="button"
+                  style={{ margin: "0 0 0 0" }}
+                  class="go_btn"
+                  onClick={handleSubmit}
+                >
                   Go
                 </button>
               </div>
@@ -1046,10 +1051,16 @@ const Tasksummary = () => {
                         <th onClick={() => sorting("DEADLINE_DATE")}>
                           Deadline
                         </th>
-                        <th onClick={() => sorting("TASK_DESCRIPTION")}>
+                        <th
+                          class="min_wid"
+                          onClick={() => sorting("TASK_DESCRIPTION")}
+                        >
                           Description
                         </th>
-                        <th onClick={() => sorting("TASK_HODS")}>
+                        <th
+                          class="min_wid2"
+                          onClick={() => sorting("TASK_HODS")}
+                        >
                           Assigned HODs
                         </th>
                         <th>Status</th>

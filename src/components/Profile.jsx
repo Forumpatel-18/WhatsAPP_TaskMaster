@@ -266,9 +266,6 @@ const Profile = () => {
             </div>
             <div class="col-lg-12">
               <div class="label_input">
-                <label>
-                  <br />
-                </label>
                 <button
                   type="button"
                   class="back_btn"
